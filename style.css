@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 20px;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 25px;
+}
+
+.search-section {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#searchInput {
+    padding: 12px 15px;
+    width: 60%;
+    max-width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#searchButton {
+    padding: 12px 25px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#searchButton:hover {
+    background-color: #218838;
+}
+
+.results-section {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#resultsList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #eee;
+}
+
+#resultsList li {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 18px;
+}
+
+#resultsList li:last-child {
+    border-bottom: none;
+}
+
+#resultsList li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+#resultsList li a:hover {
+    color: #0056b3;
+}
+
+.video-player-section {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    justify-content: center;
+}
+
+#videoPlayer {
+    width: 100%;
+    max-width: 720px; /* Standard YouTube embed width */
+    height: 405px; /* Standard YouTube embed height for 16:9 aspect ratio */
+    background-color: #000; /* Placeholder background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
