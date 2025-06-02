@@ -1,5 +1,5 @@
 // IMPORTANT: Replace with your actual YouTube Data API Key
-const YOUTUBE_API_KEY = AIzaSyATyoCbAaZ5W47vOVaZuBi7Ii3ZI8winrY;
+const YOUTUBE_API_KEY = 'AIzaSyATyoCbAaZ5W47vOVaZuBi7Ii3ZI8winrY';
 
 const searchInput = document.getElementById('searchInput');
 const searchButton = document.getElementById('searchButton');
