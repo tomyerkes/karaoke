@@ -97,11 +97,14 @@ h1 {
 
 #videoPlayer {
     width: 100%;
-    max-width: 720px; /* Standard YouTube embed width */
-    height: 405px; /* Standard YouTube embed height for 16:9 aspect ratio */
-    background-color: #000; /* Placeholder background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+    max-width: 720px;
+    height: 405px;
+    /* Remove these lines if you had them for the div placeholder */
+    /* background-color: #000; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* color: white; */
+    border: 1px solid #ccc; /* Add a border to make the iframe visible initially */
+    display: none; /* Hide it until a video is loaded */
 }
