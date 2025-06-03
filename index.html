@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-image: url('http://googleusercontent.com/image_generation_content/0');
+            background-image: url('https://your-public-image-link-here.jpg'); /* Replace this with a direct image URL */
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -80,6 +80,7 @@
             padding: 10px;
             background-color: rgba(255, 255, 255, 0.1);
             border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+            color: #ffffff; /* Make search result text white */
         }
 
         #resultsList li:last-child {
@@ -110,12 +111,12 @@
 
         <div class="results-section">
             <ul id="resultsList">
+                <!-- Search results will appear here -->
             </ul>
         </div>
 
         <div class="video-player-section">
-            <iframe id="videoPlayer" width="720" height="405" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
-            </iframe>
+            <iframe id="videoPlayer" width="720" height="405" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <p id="videoPlayerMessage" style="text-align: center; margin-top: 10px;">Search for a song and click a link to play the video.</p>
         </div>
     </div>
