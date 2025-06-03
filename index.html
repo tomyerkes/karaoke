@@ -4,7 +4,100 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DJ's Karaoke Practice</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-image: url('http://googleusercontent.com/image_generation_content/0');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            min-height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            max-width: 960px;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #ffcc00;
+            margin-bottom: 20px;
+        }
+
+        .search-section {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        #searchInput {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            width: 70%;
+            max-width: 400px;
+            background-color: rgba(255, 255, 255, 0.9);
+            color: #333;
+        }
+
+        #searchButton {
+            padding: 10px 20px;
+            background-color: #ffcc00;
+            color: #333;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        #searchButton:hover {
+            background-color: #e6b800;
+        }
+
+        .results-section {
+            margin-bottom: 20px;
+        }
+
+        #resultsList {
+            list-style: none;
+            padding: 0;
+        }
+
+        #resultsList li {
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        #resultsList li:last-child {
+            border-bottom: none;
+        }
+
+        .video-player-section {
+            text-align: center;
+        }
+
+        #videoPlayer {
+            width: 100%;
+            max-width: 640px;
+            height: 360px;
+            background-color: #000;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -17,12 +110,12 @@
 
         <div class="results-section">
             <ul id="resultsList">
-                </ul>
+            </ul>
         </div>
 
         <div class="video-player-section">
             <div id="videoPlayer">
-                </div>
+            </div>
         </div>
     </div>
 
