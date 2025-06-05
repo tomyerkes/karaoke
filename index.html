@@ -7,7 +7,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-image: url('https://your-public-image-link-here.jpg'); /* Replace this with a direct image URL */
+            background-image: url('http://googleusercontent.com/image_generation_content/0');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -74,13 +74,14 @@
         #resultsList {
             list-style: none;
             padding: 0;
+            color: white; /* Changed text color to white */
         }
 
         #resultsList li {
             padding: 10px;
             background-color: rgba(255, 255, 255, 0.1);
             border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-            color: #ffffff; /* Make search result text white */
+            text-align: center; /* Centered the text */
         }
 
         #resultsList li:last-child {
@@ -88,7 +89,7 @@
         }
 
         .video-player-section {
-            text-align: center;
+            text-align: center; /* Centered the video player */
         }
 
         #videoPlayer {
@@ -97,6 +98,7 @@
             height: 360px;
             background-color: #000;
             border-radius: 5px;
+            margin: 0 auto; /* Added to center the video player */
         }
     </style>
 </head>
@@ -111,13 +113,12 @@
 
         <div class="results-section">
             <ul id="resultsList">
-                <!-- Search results will appear here -->
             </ul>
         </div>
 
         <div class="video-player-section">
-            <iframe id="videoPlayer" width="720" height="405" src="" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            <p id="videoPlayerMessage" style="text-align: center; margin-top: 10px;">Search for a song and click a link to play the video.</p>
+            <div id="videoPlayer">
+            </div>
         </div>
     </div>
 
